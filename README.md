@@ -90,4 +90,68 @@ Follow these steps to set up the project locally:
     - **Email:** `admin@admin.com`
     - **Password:** `password`
 
+12. **Design patterns used in this project**
+    Design patterns are typical solutions to common problems in software design. They represent best practices refined over time. Here's an overview of **four main types of design patterns**:
+
+---
+
+### 1. **Creational Design Patterns**
+
+**Purpose**: Deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
+
+**Common Patterns**:
+
+* **Singleton**: Ensures a class has only one instance and provides a global point of access.
+* **Factory Method**: Defines an interface for creating an object, but lets subclasses alter the type of objects that will be created.
+* **Abstract Factory**: Produces families of related or dependent objects without specifying their concrete classes.
+* **Builder**: Separates the construction of a complex object from its representation.
+* **Prototype**: Creates new objects by copying an existing object, known as the prototype.
+
+---
+
+### 2. **Structural Design Patterns**
+
+**Purpose**: Deal with object composition—how objects can be combined to form larger structures.
+
+**Common Patterns**:
+
+* **Adapter**: Allows incompatible interfaces to work together.
+* **Bridge**: Separates an object’s abstraction from its implementation.
+* **Composite**: Composes objects into tree structures to represent part-whole hierarchies.
+* **Decorator**: Adds new functionality to an object dynamically.
+* **Facade**: Provides a simplified interface to a complex subsystem.
+* **Flyweight**: Reduces the cost of creating and manipulating a large number of similar objects.
+* **Proxy**: Provides a surrogate or placeholder for another object.
+
+---
+
+### 3. **Behavioral Design Patterns**
+
+**Purpose**: Focus on communication between objects and how responsibilities are distributed.
+
+**Common Patterns**:
+
+* **Observer**: Defines a dependency between objects so that when one changes state, all its dependents are notified.
+* **Strategy**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+* **Command**: Encapsulates a request as an object, allowing parameterization of clients with queues, requests, or logs.
+* **Chain of Responsibility**: Passes requests along a chain of handlers until one handles it.
+* **Mediator**: Centralizes complex communication between related objects.
+* **State**: Allows an object to alter its behavior when its internal state changes.
+* **Template Method**: Defines the program skeleton in a method, deferring some steps to subclasses.
+
+---
+
+### 4. **Concurrency (or Multithreading) Patterns**
+
+**Purpose**: Deal with multi-threaded programming paradigms and safe concurrent access to resources.
+
+**Common Patterns**:
+
+* **Thread Pool**: Manages a pool of worker threads to perform tasks, improving performance.
+* **Producer-Consumer**: Coordinates communication between threads that produce and consume data.
+* **Read-Write Lock**: Allows concurrent read access but exclusive write access to resources.
+* **Double-Checked Locking**: Reduces the overhead of acquiring a lock by first testing the locking criterion.
+
+---
+
 
